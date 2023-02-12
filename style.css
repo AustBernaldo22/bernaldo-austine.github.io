@@ -254,7 +254,8 @@ nav ul li a:hover::after{
 /*-----------------------contact------------------------*/
 .contact-left{
   flex-basis: 35% ;
-  
+  padding-left: 300px;
+  margin-left: 300px;
 }
 
 .contact-left p {
@@ -284,9 +285,7 @@ nav ul li a:hover::after{
   display: inline-block;
   background: #ff004f;
 }
-.contact-right form{
-  width: 100%;
-}
+
 form input, form textarea{
   width: 100%;
   border: 0;
